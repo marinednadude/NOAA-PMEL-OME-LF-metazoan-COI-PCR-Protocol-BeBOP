@@ -1,4 +1,4 @@
-# NOAA-PMEL-OME-CO1-PCR-Protocol-BeBOP
+# NOAA-PMEL-OME-COI-PCR-Protocol-BeBOP
 
 ### Quick Links:
 
