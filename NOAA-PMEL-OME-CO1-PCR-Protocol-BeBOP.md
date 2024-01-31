@@ -1,3 +1,9 @@
+## This is the working document for "PMEL OME COI PCR Protocol"  
+## This is a draft document and has not been finalized or version controlled.
+### The protocol in MD format will be stored in its own Github repo that will be accessioned and version controlled with Zenodo to obtain a unique DOI. The link to the DOI will be included in the main NOAA OME GitHub within the protocol table.
+
+----------
+
 # Protocol Template
 
 
@@ -69,11 +75,13 @@ This protocol is for amplifying the cytochrome c oxidase subunit I (COI) mitocho
 
 This primer set targets metazoan organisms (e.g., molluscs, arthropods, and vertebrates). Important note, this primer also amplifies non-target organisms including single-celled phytoplankton (e.g., dinoflagellates, diatoms, and haptophytes). 
 
-The amplification presented here is intended as the first of a two-step PCR protocol for Illumina Nextera Unique Dual Index sequencing library preparation. Our written protocol does not include the second PCR step in which sample-specific barcodes are attached.
+The protocol presented here is intended as the first PCR of a two-step PCR next generation sequencing library preparation using Illumina Nextera Unique Dual Indices. Our written protocol does not include the second PCR step in which sample-specific barcodes are attached.  [NOAA-PMEL-OME-NGS-Library-Preparation-Protocol pending]
 
 ## Method description and rationale
 
-This protocol was chosen because it is widely and historically used in marine eDNA time series by the Monterey Bay Aquarium Research Institute (MBARI), a leader in the field of eDNA research and an important partner in the Marine Biodiversity Observation Network (MBON) and West Coast Ocean Biomolecular Observing Network (WC-OBON). Our protocol uses the same primers, polymerase, and thermocycling conditions as MBARI and MBON. This amplification protocol is accessible to most molecular biology labs.
+This protocol was chosen because it has been widely and historically used in marine eDNA time series by the Monterey Bay Aquarium Research Institute (MBARI), a leader in the field of eDNA research and an important partner in the Marine Biodiversity Observation Network (MBON) and West Coast Ocean Biomolecular Observing Network (WC-OBON). Our protocol uses the same primers, polymerase, and thermocycling conditions as MBARI and MBON, but is only 25 µL in total reaction volume.
+
+This amplification protocol is accessible to most molecular biology labs.
 
 ## Spatial coverage and environment(s) of relevance
 
@@ -228,17 +236,17 @@ A positive control is used in every PCR run to verify success of the PCR reactio
 
 **Negative Control**
 
-Nuclease-free water is used as a no template control when setting up each PCR plate. One well per plate is alloted to a no template control. NTCs should be run in addition to both field blanks and extraction blanks.
+Nuclease-free water is used as a no template control (NTC) when setting up each PCR plate. One well per plate is alloted to a NTC. NTCs should be run in addition to both field blanks and extraction blanks.
 
 ## Basic troubleshooting guide
 
-**Issue 1**: Streaking is observed for sample wells in gel but positive control is a normal band. 
+**Issue 1**: Streaking is observed for sample wells in gel but positive control band appears normal. 
 
-**Solution**: Dilute the DNA sample to a 1:10 dilution with nuclease-free water. If smearing continues, dilute the DNA samples to a 1:100 dilution. If the samples do not amplify under these conditions the sample likely is inhibited or has too little target DNA and is unlikely to produce results. Alternative solutions include cleaning DNA extractions with a commercial clean up kit.
+**Solution**: Dilute the sample DNA to a 1:10 dilution with nuclease-free water. If smearing continues, dilute the DNA samples to a 1:100 dilution. If the samples do not amplify under these conditions the sample likely is inhibited or has too little target DNA and is unlikely to yield valuable results. Alternative solutions include cleaning DNA extractions with a commercial clean up kit.
 
 **Issue 2**: No bands were observed in the PCR, including the positive control.
 
-**Solution**: The PCR likely failed. Check reagents to confirm they were not mishandled or expired and rerun. If positive control fails again, reagents are likely compromised. 
+**Solution**: The PCR likely failed. Check reagents to confirm they were not mishandled or expired and rerun the PCR. If positive control fails again, reagents are likely compromised. 
 
 **Issue 3**: Band observed in no template control.
 
