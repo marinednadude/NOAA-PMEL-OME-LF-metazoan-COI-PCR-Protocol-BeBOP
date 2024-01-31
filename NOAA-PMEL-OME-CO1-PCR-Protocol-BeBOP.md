@@ -1,6 +1,4 @@
-## This is the working document for "PMEL OME COI PCR Protocol"  
 ## This is a draft document and has not been finalized or version controlled.
-### The protocol in MD format will be stored in its own Github repo that will be accessioned and version controlled with Zenodo to obtain a unique DOI. The link to the DOI will be included in the main NOAA OME GitHub within the protocol table.
 
 ----------
 
@@ -37,7 +35,7 @@ See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_tem
 | language  | en |
 | issued  | 2024-02-02	 |
 | audience  | scientists |
-| publisher  | NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program |
+| publisher  | NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program, University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies |
 | hasVersion  | 1 |
 | license  | CC0 1.0 Universal |
 | maturity level  | mature |
@@ -207,14 +205,14 @@ This table breaks down the mixture per plate and per reaction. When running full
 
 **Step-by-Step Instructions:**
 
-*Note: When possible, PCR set-up should be carried out in a separate, pre-PCR space that is distinct from where the thermocyclers are located and all post-PCR processing is performed. No equipment, consumables, or reagents should be shared between pre- and post-PCR spaces with a unidirectional flow of sample processing.*
+*Note: When possible, PCR set-up should be carried out in a separate pre-PCR space that is distinct from where the post-PCR space where thermocyclers are located and all post-PCR processing is performed. No equipment, consumables, or reagents should be shared between pre- and post-PCR spaces with a unidirectional flow of sample processing.*
 
 1. Set out primers and positive control to thaw.
 2. Vortex and spin down thawed positive control, primers, and nuclease free water. Then tap/flick AmpliTaq rather than vortexing before spinning down. Thawed reagents should be stored in a cooling block or fridge when not in use.
 3. Pool reagents to make final master mix, as denoted in above in reagent mixture table.
 4. Set out template DNA to thaw if frozen.
 5. Aliquot 23 μL of final master mix into each well of the PCR plate. The plate should sit in a cold block to ensure the reagents remain at a low temperature.
-6. Add 2 μL DNA template to each well (See [Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1cVP8Pum9eyOAgBLqu9X48TsRJWtoMAENNBskbYGYz28/edit?usp=sharing)), but reserve two wells for the positive control and a no template control (NTC). 
+6. Add 2 μL DNA template to each well (See [Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1GiYxSuAibLr0o4OulZFxdJbhuhW9fhLBwIDK_UkXR90/edit?usp=sharing)), but reserve two wells for the positive control and a no template control (NTC). 
 8. To one well each, add 2 μL of the positive control and 2 μL of nuclease-free water for the NTC.
 9. Seal the PCR plate with foil.
 10. Spin down the plate, and then transport in cooler blocks before placing in thermocycler.
@@ -243,11 +241,11 @@ Nuclease-free water is used as a no template control (NTC) when setting up each 
 
 **Issue 1**: Streaking is observed for sample wells in gel but positive control band appears normal. 
 
-**Solution**: Dilute the sample DNA to a 1:10 dilution with nuclease-free water. If smearing continues, dilute the DNA samples to a 1:100 dilution. If the samples do not amplify under these conditions the sample likely is inhibited or has too little target DNA and is unlikely to yield valuable results. Alternative solutions include cleaning DNA extractions with a commercial clean up kit.
+**Solution**: Dilute the sample DNA to a 1:10 dilution with nuclease-free water. If smearing is still observed using a 1:10 dilution, dilute the DNA samples further to a 1:100 dilution. If the samples do not amplify under these conditions the sample likely is inhibited or has too little target DNA and thus is unlikely to yield valuable results. Alternative solutions include cleaning DNA extractions with a commercial clean up kit.
 
 **Issue 2**: No bands were observed in the PCR, including the positive control.
 
-**Solution**: The PCR likely failed. Check reagents to confirm they were not mishandled or expired and rerun the PCR. If positive control fails again, reagents are likely compromised. 
+**Solution**: The PCR likely failed. Check reagents to confirm they were not mishandled or expired and rerun the PCR. If positive control fails again, reagents or positive control are likely compromised. 
 
 **Issue 3**: Band observed in no template control.
 
@@ -279,10 +277,10 @@ Nuclease-free water is used as a no template control (NTC) when setting up each 
 
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
-| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter to control for contamination in the field sampling step.  |
+| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step.  |
 | Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step.  |
 | No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
-| Positive control  | PCR positive control. Typically a synthetic DNA strand or non-indigenous DNA extract loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
+| Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
 
 ## REFERENCES
 
@@ -290,4 +288,4 @@ Nuclease-free water is used as a no template control (NTC) when setting up each 
 2. Folmer et al. 1994. DNA primers for amplification of mitochondrial cytochrome c
 oxidase subunit I from diverse metazoan invertebrates. Molecular Marine Biology and Biotechnology 3 (5): 294-299. PMID: 7881515  [Link](https://www.researchgate.net/publication/15316743_DNA_primers_for_amplification_of_mitochondrial_Cytochrome_C_oxidase_subunit_I_from_diverse_metazoan_invertebrates#fullTextFileContent)
 ## APPENDIX A: DATASHEETS
-[Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1cVP8Pum9eyOAgBLqu9X48TsRJWtoMAENNBskbYGYz28/edit?usp=sharing)
+[Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1GiYxSuAibLr0o4OulZFxdJbhuhW9fhLBwIDK_UkXR90/edit?usp=sharing)
