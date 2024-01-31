@@ -170,8 +170,8 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 3.
 (Adapter seqeuence + **target sequence bolded**)
 | PCR Primer Name | Direction | Sequence (5’ -> 3’)|
 | ------------ | --- | ----- |
-| Leray F / mICOlinF| Forward | TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG**GGWACWGGWTGAACWGTWTAYCCYCC** |
-| Folmer R / HCO2198 | Reverse | GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG**TAAACTTCAGGGTGACCAAAAAATCA** |
+| Leray CO1 - Nex - F| Forward | TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG**GGWACWGGWTGAACWGTWTAYCCYCC** |
+| Folmer CO1 - Nex - R | Reverse | GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG**TAAACTTCAGGGTGACCAAAAAATCA** |
 
 \
 **Reaction Mixture**: PCR reagents, volumes, initial and final concentrations
