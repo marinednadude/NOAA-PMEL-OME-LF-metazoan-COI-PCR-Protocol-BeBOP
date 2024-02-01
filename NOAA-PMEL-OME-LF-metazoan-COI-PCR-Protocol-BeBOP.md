@@ -226,7 +226,7 @@ This table breaks down the mixture per plate and per reaction. When running full
 
 **Positive Control**
 
-A positive control is used in every PCR run to verify success of the PCR reaction. In place of template DNA, 2 μL of positive control diluted to 10^3 copies/µL is used. One well per plate is alotted for the positive control. The positive control used for COI is the extinct Moa (*Dinornis giganteus*). The reference mitogenome used to develop the positive control sequence can be found on Genbank [(Accession AY016013.1)](https://www.ncbi.nlm.nih.gov/nuccore/AY016013.1). 
+A positive control is used in every PCR run to verify success of the PCR reaction. In place of template DNA, 2 μL of positive control diluted to 10^3 copies/µL is used. One well per plate is alotted for the positive control. The positive control used for COI is the extinct Moa (*Dinornis giganteus*) native to New Zealand. The reference mitogenome used to develop the positive control sequence can be found on Genbank [(Accession AY016013.1)](https://www.ncbi.nlm.nih.gov/nuccore/AY016013.1). We note that this accession had 1 mismatch in the forward primer as well as 3 mistmatches in the reverse primer and thus we modified the positive control to use the exact primer sequence to avoid mismatches.
 
 |Positive Control Sequence|
 |--------------------------|
