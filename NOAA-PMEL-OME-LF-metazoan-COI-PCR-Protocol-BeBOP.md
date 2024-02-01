@@ -2,7 +2,7 @@
 
 ----------
 
-# Protocol Template
+# NOAA PMEL OME LF metazoan COI PCR Protocol
 
 
 ### Quick Links:
