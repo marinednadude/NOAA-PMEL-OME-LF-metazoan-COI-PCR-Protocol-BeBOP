@@ -200,7 +200,7 @@ This table breaks down the mixture per plate and per reaction. When running full
 |Denaturation	|94°C|	10 sec|	25X|
 |Annealing	|46°C	|30 sec	|25X|
 |Extension	|68°C	|60 sec	|25X
-|Final extension	|7°C	|10 min	|1X|
+|Final extension	|72°C	|10 min	|1X|
 |Hold	|4°C	|∞	||
 
 **Step-by-Step Instructions:**
