@@ -121,6 +121,8 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 3.
 | 1.5 mL tube cooler rack | Benchtop cooler | Thermo Scientific  | 1 | Can be subsituted with generic. Store in the fridge to avoid refreezing reagents. |
 | 2 mL tube rack | Microcentrifuge tube rack | VWR | 1 | Can be substituted with generic. |
 | 0.2 mL PCR plate rack | PCR tube rack for 0.2 mL micro-tubes | Fisher Scientific | 1 | Can be substituted with generic. |
+|Wash bottle|Safety Wash Bottle for Ethanol 500mL|VWR|1|Can be substituted with generic (not labeled specifically for EtOH). Must be sterilized before use|
+|Wash bottle|Safety Wash Bottle for Hypochlorite Bleach 500mL|VWR|1|Can be substituted with generic (not labeled specifically for bleach). Must be sterilized before use|
 | **Consumable equipment** |
 | 1000 μL pipette tips | TipOne RPT filter tips 1000 μL XL graduated | USA Scientific | 4 | Can be subsituted with generic. Must be sterile and filtered. |
 | 200 μL pipette tips  | TipOne RPT filter tips 200 μL graduated| USA Scientific |4 | Can be subsituted with generic. Must be sterile and filtered. |
@@ -130,6 +132,7 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 3.
 | 2 mL tubes | Snap cap DNA LoBind 2.0 mL tubes, PCR-clean| Eppendorf |5 | Can be substituted with generic. Must be sterile. |
 | 1.5 mL tubes | Snap cap DNA LoBind 1.5 mL tubes, PCR-clean| Eppendorf |2 | Can be substituted with generic. Must be sterile. |
 | Kimwipes | Delicate task wipes | Kimtech | 5 | Can be substituted with generic. Must be lint-free.|
+| Nitrile gloves | Powder Free Nitrile Gloves | Fisher Scientific | 8 | Can be subsituted with generic nitrile gloves. Does not come sterile, must be sterilized before use (10% bleach followed by 70% EtOH) |
 |**Optional Equipment**|||			
 |Repeater Pipetter: 10-300  μL|E1-ClipTip electronic single channel pipette, 10-300 μL|ThermoFisher|	1|Can be substituted with generic. Not required but reduces protocol time.|
 | 300 μl repeater pipette tips | ClipTip 300 filtered sterile tips| Thermo Scientific| 2| Can be substituted with generic. Must fit repeater pipette. Must be sterile and filtered. |
