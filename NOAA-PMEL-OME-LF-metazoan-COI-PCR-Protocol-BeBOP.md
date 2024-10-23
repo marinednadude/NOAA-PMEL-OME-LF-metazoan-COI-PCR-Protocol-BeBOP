@@ -295,4 +295,4 @@ Nuclease-free water is used as a no template control (NTC) when setting up each 
 2. Folmer et al. 1994. DNA primers for amplification of mitochondrial cytochrome c
 oxidase subunit I from diverse metazoan invertebrates. Molecular Marine Biology and Biotechnology 3 (5): 294-299. PMID: 7881515  [Link](https://www.researchgate.net/publication/15316743_DNA_primers_for_amplification_of_mitochondrial_Cytochrome_C_oxidase_subunit_I_from_diverse_metazoan_invertebrates#fullTextFileContent)
 ## APPENDIX A: DATASHEETS
-[Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1GiYxSuAibLr0o4OulZFxdJbhuhW9fhLBwIDK_UkXR90/edit?usp=sharing)
+[Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/15P_NcU4aT-VVl-L6QRiL38R_5yLpPfYv/edit?gid=1165730299#gid=1165730299)
