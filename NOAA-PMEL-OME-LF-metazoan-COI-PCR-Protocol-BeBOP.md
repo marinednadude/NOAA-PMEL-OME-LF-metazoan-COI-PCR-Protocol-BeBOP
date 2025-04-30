@@ -60,6 +60,7 @@ annealingTemp: NEEDS UPDATING
 pcr_cycles: NEEDS UPDATING
 pcr_analysis_software: missing":" not provided
 pcr_method_additional: Quality was validated via confirmation of a product on a gel.
+---
 
 # NOAA PMEL OME LF metazoan COI PCR Protocol
 
