@@ -115,7 +115,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2024-02-01 | Initial release |
-| 1.1.0 | 2025-04-30 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
+| 1.1.0 | 2025-05-01 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
 
 ### Acronyms and Abbreviations
 
