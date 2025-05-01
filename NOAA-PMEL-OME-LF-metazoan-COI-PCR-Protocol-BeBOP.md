@@ -15,9 +15,12 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 210
 personnel_required: 1
 language: en
-issued: 2025-04-30
+issued: 2025-05-01
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+hasVersion: 1
+license: CC0 1.0 Universal
+maturity level: mature
 
 # FAIRe terms
 pcr_0_1: 1
@@ -55,9 +58,9 @@ amplificationReactionVolume: 25
 pcr_dna_vol: 2.0
 pcr_rep: 1.0
 nucl_acid_amp: https://doi.org/10.5281/zenodo.11398095
-pcr_cond: NEEDS UPDATING
-annealingTemp: NEEDS UPDATING
-pcr_cycles: NEEDS UPDATING
+pcr_cond: initial denaturation:95_10;touchdown_cycling;denaturation:94_0.17;annealing:62-47_0.5;elongation:68_1;16; normal_cycling;denaturation:94_0.17;annealing:46_0.50;elongation:68_1;final elongation:72_10;25
+annealingTemp: not applicable
+pcr_cycles: not applicable
 pcr_analysis_software: missing":" not provided
 pcr_method_additional: Quality was validated via confirmation of a product on a gel.
 ---
@@ -71,7 +74,17 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 - MIOP terms are listed in the YAML frontmatter of this page.
 - See <https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml> for list and definitions.
 
+### Making eDNA FAIR (FAIRe)
+
+- FAIRe terms are listed in the YAML frontmatter of this page.
+- See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
+- See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
+
 ### Authors
+
+- All authors known to have contributed to the preparation of this protocol, including those who filled in the template.
+- Visit https://orcid.org/ to register for an ORCID.
+- Date is the date the author first worked on the protocol.
 
 | PREPARED BY | AFFILIATION | ORCID | DATE |
 | ------------- | ------------- | ------------- | ------------- |
@@ -81,39 +94,28 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 |Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|	0000-0002-4257-0170	|2024-02-01|
 |Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|0000-0003-0490-7630	|2024-02-01|
 
-- All authors known to have contributed to the preparation of this protocol should be listed, including those who filled in the template.
-- Visit <https://orcid.org/> to register for an ORCID.
-
 ## Related Protocols
 
 - This section contains protocols that should be known to users of this protocol.
-- Internal Protocols: Derivative or altered protocols, or other protocols in this workflow.
-- External Protocols: Protcols from manufacturers or other groups. 
 - Include the link to each protocol.
-- Include the version number (internal) or access date (external) of the protocol when it was accessed.
+- Include the version number and release date (if available).
+- Internal/External: "Internal" are derivative or altered protocols, or other protocols in this workflow. "External" are protcols from manufacturers or other groups.
 
-#### Internal Protocols
-
-| PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE |
-| ------------- | ------------ | ------------ | ------------ |
-| OME Gel electrophoresis protocol (in progress)  | TBD | 0.0| TBD |
-
-#### External Protocols
-
-| PROTOCOL NAME | LINK | VERSION | RELEASE DATE |
-| --------- | --------------------- | ------- | ------------ |
-| Environmental DNA (eDNA) COI metabarcoding Illumina MiSeq NGS PCR Protocol V2 | https://github.com/MBARI-BOG/MBON-Protocols/blob/main/eDNA_COI_PCR_V2.md | V2 | 2018-03-20 |
+| PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
+| ------------- | ------------ | ------------ | ------------ | ----------------- |
+| OME Gel electrophoresis protocol (in progress)  | Pending | 0.0 | yyyy-mm-dd   | Internal  |
+| Environmental DNA (eDNA) COI metabarcoding Illumina MiSeq NGS PCR Protocol V2 | https://github.com/MBARI-BOG/MBON-Protocols/blob/main/eDNA_COI_PCR_V2.md | V2 | 2018-03-20 | External|
 
 ### Protocol Revision Record
+
+- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
+- Release date is the date when a given protocol version was finalised.
+- Description of revisions includes a brief description of what was changed relative to the previous version.
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2024-02-01 | Initial release |
 | 1.1.0 | 2025-04-30 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
-
-- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
-- Release date is the date when a given protocol version was finalised.
-- Description of revisions includes a brief description of what was changed relative to the previous version.
 
 ### Acronyms and Abbreviations
 
@@ -155,13 +157,13 @@ This primer set targets metazoan organisms (e.g., molluscs, arthropods, and vert
 
 The protocol presented here is intended as the first PCR of a two-step PCR next generation sequencing library preparation using Illumina Nextera Unique Dual Indices. Our written protocol does not include the second PCR step in which unique library-specific barcodes are attached to each round 1 PCR product. 
 
-### Method description and rationale
+### Method Description and Rationale
 
 This protocol was chosen because it has been widely and historically used by the Monterey Bay Aquarium Research Institute (MBARI), a leader in the field of eDNA research and an important partner in the Marine Biodiversity Observation Network (MBON) and West Coast Ocean Biomolecular Observing Network (WC-OBON), to generate marine eDNA time series. Our protocol uses the same primers, polymerase, and thermocycling conditions as MBARI and MBON, but is only 25 µL in total reaction volume. We intentionally chose this protocol to promote standardization of ocean biomolecular observations and easily facilitate integration of PMEL OME eDNA data with MBARI and MBON eDNA time series.
 
 This amplification protocol is accessible to most molecular biology labs.
 
-### Spatial coverage and environment(s) of relevance
+### Spatial Coverage and Environment(s) of Relevance
 
 This protocol has been used to amplify extracted DNA from thousands of filtered sea water samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf). 
 
@@ -173,16 +175,22 @@ One person with molecular biology experience.
 
 This protocol does not involve any hazardous chemicals, although standard precautions including wearing PPE should be taken to avoid skin and eye exposure to chemical reagents.
 
-### Training requirements
+### Training Requirements
 
 Molecular biology training (including, at a minimum, sterile technique, pipetting small volumes, and programming and running PCR thermocyclers) is required to conduct this protocol.
 
-### Time required to execute the procedure
+### Time Needed to Execute the Procedure
 
 PCR preparation and running the PCR protocol for a single 96-well plate takes 3.5 hours (210 minutes), 120 mins of which is the thermocycler run time.  Additional plates can be run simultaneously without greatly increasing the time required. 
 
 -----
 # EQUIPMENT
+
+- Description: E.g., "filter".
+- Product Name and Model: Provide the official name of the product.
+- Manufacturer: Provide the name of the manufacturer of the product.
+- Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
+- Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
 
 For a 96-well Plate:
 
@@ -234,12 +242,6 @@ For a 96-well Plate:
 | Positive control| gBlocks HiFi Gene Fragments | IDT | 2 μl per plate| Store at -20°C |
 | 70% EtOH | Molecular grade ethanol| Generic | 40 mL | |
 | 10% bleach| Hypochlorite bleach |Clorox| 40 mL | Remake every ~5 days as bleach decomposes quickly at 10% concentration |
-
-- Description: E.g., "filter".
-- Product Name and Model: Provide the official name of the product.
-- Manufacturer: Provide the name of the manufacturer of the product.
-- Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
-- Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
 
 ## STANDARD OPERATING PROCEDURE
 
@@ -312,12 +314,12 @@ This table breaks down the mixture per plate and per reaction. When running full
 9. Spin down the plate, and then transport in cooler blocks before placing in thermocycler.
 10.  Run thermocycler protocol.
 
-### Quality control
+### Quality Control
 
 1. Plates should be removed from the thermocycler  after the run completes and stored at 4°C until run on a gel. Storing the PCR product at -20˚C is ideal for 1-6 month term storage, while -80˚C is ideal for long-term storage.
 2. Run gel visualization to confirm successful PCR. [NOAA-PMEL-OME-GelVisualization-Protocol pending]
 
-**Positive Control**
+#### Positive Control
 
 A positive control is used in every PCR run to verify success of the PCR reaction. In place of template DNA, 2 μL of positive control diluted to 10^3 copies/µL is used. One well per plate is alotted for the positive control. The positive control used for COI is the extinct Moa (*Dinornis giganteus*) native to New Zealand. The reference mitogenome used to develop the positive control sequence can be found on Genbank [(Accession AY016013.1)](https://www.ncbi.nlm.nih.gov/nuccore/AY016013.1). We note that this accession had 1 mismatch in the forward primer as well as 3 mistmatches in the reverse primer and thus we modified the positive control to use the exact primer sequence to avoid mismatches.
 
@@ -325,11 +327,11 @@ A positive control is used in every PCR run to verify success of the PCR reactio
 |--------------------------|
 |CCACTATTGAAGCTGGAGCAGGAACAGGATGAACAGTATACCCCCCACTAGCCGGAAACCTGGCTCATGCGGGTGCCTCCGTGGACCTTACTATCTTCTCACTCCACCTGGCCGGTGTATCCTCCATCCTAGGAGCTATCAACTTTATTACCACAGCAATTAACATAAAACCTCCAGCCCTCTCACAATACCAAACTCCATTATTTGTATGATCCGTACTAATCACTGCCATCCTCCTACTACTATCCCTCCCAGTACTTGCTGCCGGTATCACTATACTGCTCACAGACCGGAACCTAAACACCACATTCTTCGACCCTGCTGGAGGAGGGGACCCTATTCTATACCAACACCTCTTCTGATTTTTTGGTCACCCTGAAGTTTACATTCTCATTCTTCCTGGCT|
 
-**Negative Control**
+#### Negative Control
 
 Nuclease-free water is used as a no template control (NTC) when setting up each PCR plate. One well per plate is alloted to a NTC. NTCs should be run in addition to both field blanks and extraction blanks.
 
-### Basic troubleshooting guide
+### Basic Troubleshooting Guide
 
 **Issue 1**: Streaking is observed for sample wells in gel but positive control band appears normal. 
 
