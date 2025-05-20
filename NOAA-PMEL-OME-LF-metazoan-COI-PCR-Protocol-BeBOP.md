@@ -237,7 +237,7 @@ For a 96-well Plate:
 | **Chemicals** |
 | PCR master mix 2x|AmpliTaq Gold Fast PCR master mix | Applied Biosystems | 1300 μl per plate |Store at 4°C |
 | Forward primer | Custom oligo | IDT |104 μl per plate| Store at -20°C|
-| Reverse primer| Custom oligo | IDT | 104 μl per plate| Store at -20°C.
+| Reverse primer| Custom oligo | IDT | 104 μl per plate| Store at -20°C|
 | Nuclease free water | UltraPure DNase/RNase-free distilled water | ThermoFisher | 884 μl per plate| |
 | Positive control| gBlocks HiFi Gene Fragments | IDT | 2 μl per plate| Store at -20°C |
 | 70% EtOH | Molecular grade ethanol| Generic | 40 mL | |
