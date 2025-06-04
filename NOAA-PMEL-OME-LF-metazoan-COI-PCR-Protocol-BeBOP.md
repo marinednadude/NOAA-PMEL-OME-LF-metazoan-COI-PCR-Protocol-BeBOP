@@ -94,7 +94,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 |Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|	0000-0002-4257-0170	|2024-02-01|
 |Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|0000-0003-0490-7630	|2024-02-01|
 
-## Related Protocols
+### Related Protocols
 
 - This section contains protocols that should be known to users of this protocol.
 - Include the link to each protocol.
