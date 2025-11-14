@@ -1,6 +1,6 @@
 # NOAA-PMEL-OME-LF-metazoan-COI-PCR-Protocol-BeBOP
 
-\[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17612155.svg)](https://doi.org/10.5281/zenodo.17612155)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17612155.svg)](https://doi.org/10.5281/zenodo.17612155)
 
 See [NOAA-PMEL-OME-LF-metazoan-COI-PCR-Protocol-BeBOP.md](https://github.com/marinednadude/NOAA-PMEL-OME-LF-metazoan-COI-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-LF-metazoan-COI-PCR-Protocol-BeBOP.md) for detailed protocol.  
 
